@@ -1,0 +1,42 @@
+/* CSS using SCSS for styling */
+.code-editor {
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .code-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .code-toolbar-button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .code-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .code-container code {
+    white-space: pre-wrap;
+    outline: none;
+  }
+  
+  .locked {
+    background-color: #f2f2f2;
+    pointer-events: none;
+  }
+  
